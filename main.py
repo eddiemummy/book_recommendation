@@ -14,7 +14,7 @@ llm = ChatGoogleGenerativeAI(
 if "suggested_books" not in st.session_state:
     st.session_state.suggested_books = []
 
-st.title("📚 Unique Book Recommendation")
+st.title("📚 Book Recommendation")
 
 genre = st.text_input("📖 Genre / Type (e.g. Sci-fi, Literary Fiction, Magical Realism)")
 language = st.text_input("🌍 Language of Summary")
