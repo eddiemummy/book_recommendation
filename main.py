@@ -8,7 +8,7 @@ api_key = st.secrets["GOOGLE_GEMINI_KEY"]
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash", 
     google_api_key=api_key,
-    temperature=0.8 
+    temperature=0.4 
 )
 
 if "suggested_books" not in st.session_state:
